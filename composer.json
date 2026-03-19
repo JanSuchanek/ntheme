@@ -1,0 +1,9 @@
+{
+    "name": "jansuchanek/ntheme",
+    "description": "Theme resolver for Nette — active/fallback template resolution, asset paths",
+    "type": "library",
+    "license": "MIT",
+    "require": {"php": ">=8.1"},
+    "require-dev": {"nette/tester": "^2.6", "nette/di": "^3.2"},
+    "autoload": {"psr-4": {"NTheme\\": "src/"}}
+}
